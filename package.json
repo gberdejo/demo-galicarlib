@@ -1,6 +1,6 @@
 {
   "name": "@gberdejo/demo-galicarlib",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -11,9 +11,14 @@
     "lint:fix": "eslint \"src/**/*.{js,ts,tsx}\" --fix"
   },
   "dependencies": {
-    "@nestjs/common": "^10.2.4"
+    "@nestjs/common": "^10.2.4",
+    "@nestjs/sequelize": "^10.0.0",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1",
+    "sequelize-typescript": "^2.1.5"
   },
   "devDependencies": {
+    "@types/sequelize": "^4.28.15",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "eslint": "^8.7.0",
