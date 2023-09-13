@@ -1,6 +1,6 @@
 {
   "name": "@gberdejo/demo-galicarlib",
-  "version": "2.0.2",
+  "version": "3.0.4",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -12,8 +12,11 @@
   },
   "dependencies": {
     "@nestjs/common": "^10.2.4",
+    "@nestjs/mongoose": "^10.0.1",
     "@nestjs/sequelize": "^10.0.0",
     "@nestjs/typeorm": "^10.0.0",
+    "ioredis": "^5.3.2",
+    "mongoose": "^7.5.0",
     "mysql2": "^3.6.0",
     "sequelize": "^6.32.1",
     "sequelize-typescript": "^2.1.5",
